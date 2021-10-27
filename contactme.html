@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="scss/proyecto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav class="header-nav">
+            <img class="header-nav__logo" src="img/logo/fictionnomad_logo.png" alt="logo">
+            <ul class="header-nav__ul">
+                <li class="header-nav__li"> <a href="/index.html" class="header-nav_li--enlaces"> Home </a></li>
+                <li class="header-nav__li"> <a href="/aboutme.html" class="header-nav_li--enlaces"> About Me </a></li>
+                <li class="header-nav__li"> <a href="/myworks.html" class="header-nav_li--enlaces"> My Works </a></li>
+                <li class="header-nav__li"> <a href="/reviews.html" class="header-nav_li--enlaces"> Reviews</a></li>
+                <li class="header-nav__li"> <a href="/contactme.html" class="header-nav_li--enlaces"> Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+            <h1> <em>Contact Me</em></h1>
+        
+        <section>
+            <h2>Where to find me</h2>
+            <p> Mendoza 5761, Buenos Aires, Villa Urquiza</p>
+            <p> Mail: fictionnomad@gmail.com</p>
+            <p> Phone: (54 9) 11-5568-0864</p>
+            <div style="width: 100%"><iframe width="50%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Mendoza%205761,%20capital%20federal+(Donde%20encontrarme)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+        </section>
+        <br>
+        <section>
+            <h2>Leave me your message </h2>
+            <form action="mailto:andreamarchesin93@gmail.com" method="post" enctype="text/plain">
+                <fieldset class="form">
+                    <div class="text-form">
+                        <label for="Name"> Your Name:</label>
+                        <input type="text" name="Name" placeholder="Write here">
+                    </div>
+                    <div class="text-form">
+                        <label for="Surname">Your Surname:</label>
+                        <input type="text" name="Surname" placeholder="Write here">
+                    </div>
+                    <div class="email-form">
+                        <label for="email"> Your e-mail:</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="newsletter-form">
+                        <label class="contain" for="Newsletter">Subscribe to my Newsletter
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="message-from">
+                        <label for="Your Message"></label>
+                        <textarea name="messege" id="" cols="30" rows="10"> Your Message</textarea>
+                    </div>
+                    </div>
+                    <input class="button-form" type="submit" value="Send" class="button-form">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+
+        <footer class="footer">    
+            <h2 class="footer__h2">Fiction Nomad</h2>
+                <div class="footer__newsletter">
+                    <h4>Subscribe to my Newsletter</h4>
+                    <label for="text">Your Name</label>
+                    <input type="text" placeholder="Your Name">
+                    <label for="email"> Email</label>
+                    <input type="email" placeholder="Your">
+                    <input type="submit" name="" id="">
+                </div>
+            <h4 class="footer__h4--socialNetworks">Check my social networks</h4>
+            <h4 class="footer__h4--contactMe"> <a class="footer__a" href="/contactme.html"> Contact Me!</a></h4>     
+        </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
